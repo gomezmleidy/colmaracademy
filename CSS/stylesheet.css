@@ -28,3 +28,22 @@
     color: white;
     text-decoration: none;
 }
+
+.main {
+
+}
+
+.read_more {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.courses {
+    background-color: lightgrey;
+    color: #322D2E;
+}
+
+.course {
+    background-color: white;
+
+}
