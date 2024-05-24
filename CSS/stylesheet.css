@@ -1,0 +1,15 @@
+
+* {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+.logo {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;  
+    font-size: 2rem;
+    color: gray;
+
+}
