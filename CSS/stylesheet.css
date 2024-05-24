@@ -13,3 +13,18 @@
     color: gray;
 
 }
+
+.menu {
+    
+}
+
+.banner {
+    background-color: lightgrey;
+    color: #322D2E;
+}
+
+.button {
+    background-color: #322D2E;
+    color: white;
+    text-decoration: none;
+}
