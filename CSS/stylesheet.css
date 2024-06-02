@@ -2,6 +2,7 @@
 * {
     font-family: "Nunito Sans", sans-serif;
     box-sizing: border-box;
+    color: #494949;
 }
 
 /*LOGO Y MENU*/
@@ -44,7 +45,7 @@ li {
 
 .banner {
     background-color: lightgrey;
-    color: #322D2E;
+    color: #494949;
     display: flex;
     padding-right: 24px;
     
@@ -162,10 +163,98 @@ li {
 
 .courses {
     background-color: lightgrey;
-    color: #322D2E;
+    color: #494949;
+    width: 100%;
+}
+
+.courses h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 32px;
+    margin: 0px;
+
+}
+
+.courses_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 72px;
+    margin-right: 72px;
+    padding-bottom: 32px;
+
+
 }
 
 .course {
     background-color: white;
+    margin: 16px;
+    width: 30%;
 
+
+}
+
+.course img {
+    width: 100%;
+}
+
+.course_text {
+    margin: 16px 16px 24px 16px;
+}
+
+.course h3 {
+    font-size: 22px;
+}
+
+/*VIDEO*/
+
+.thesis h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 32px;
+    margin: 0px;
+
+}
+
+.thesis_content {
+    display: flex;
+    width: 100%;
+}
+
+.video {
+    width: 60%;
+    padding: 0px 24px 24px 24px;
+}
+
+video {
+    width: 100%;
+}
+
+.thesis_aside_card {
+    display: flex;
+}
+
+.second_aside {
+    width: 40%;
+}
+
+.thesis_aside_card {
+    width: 100%;
+    padding: 16px;
+}
+
+.second_aside img {
+    width: 35%;
+    margin-right: 16px;
+}
+
+.thesis_aside_text {
+    width: 65%;
+    align-self: center;
+
+}
+
+.thesis_aside_card:hover {
+    background-color: lightgrey;
+    cursor: pointer;
 }
