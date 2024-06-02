@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
+/*LOGO Y MENU*/
+
 .logoandmenu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 12px 24px 12px 24px;
-    height: 4rem;
-
-    
+    height: 4rem;    
 }
 
 
@@ -39,21 +39,34 @@ li {
     list-style: none;
 }
 
+
+/*PRIMER BANNER*/
+
 .banner {
     background-color: lightgrey;
     color: #322D2E;
     display: flex;
+    padding-right: 24px;
+    
 }
 
-.banner img {
+.banner_img {
     width: 60%;
     margin: 32px 24px 32px 24px;
 }
 
-.learn {
+.banner img {
+    width: 100%;
+}
+
+.banner_text {
+    width: 40%;
     align-self:center;
-    font-size: 2rem;
-    margin-right: 260px;
+}
+
+.learn {
+    font-size: 1.5rem;
+    margin-right: 180px;
 }
 
 .button_container {
@@ -68,9 +81,10 @@ li {
     text-decoration: none;
     display: block;
     font-size: 1.5rem;
-
-    
 }
+
+
+/*SEGUNDO BANNER*/
 
 .main {
     display: flex;
@@ -78,20 +92,73 @@ li {
 
 .hurt {
     width: 60%;
-} 
+    padding: 32px 24px 32px 24px;
+    
+}  
 
-.hurt img {
-    margin: 32px 24px 32px 24px;
+.hurt h2 {
+    font-size: 2rem;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
 
+.hurt p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.hurt img { 
+    width: 100%;
+}
+
+.main_aside {
+    width: 40%;
+    
 }
 
 .main_aside_card {
-    width: 40%;
+    display: flex;
+    
 }
+
+
+.main_aside_card_img {
+    width: 35%;
+    
+}
+
+.main_aside_card img {
+    width: 100%;
+    padding: 16px;
+}
+
+.main_aside_card_text {
+    width: 65%;
+    align-self:center;
+}
+
+.main_aside_card_text h3 {
+    margin: 0px;
+}
+
+.main_aside_card_text p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
 .read_more {
     color: cornflowerblue;
     text-decoration: none;
 }
+
+.main_aside_card:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+/*CURSOS*/
 
 .courses {
     background-color: lightgrey;
