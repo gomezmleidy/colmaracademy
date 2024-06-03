@@ -258,3 +258,19 @@ video {
     background-color: lightgrey;
     cursor: pointer;
 }
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 24px;
+    border-top: lightgray solid 1px;
+    
+}
+
+ul {
+    font-size: 14px;
+}
