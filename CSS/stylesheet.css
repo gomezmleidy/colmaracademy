@@ -7,7 +7,8 @@
 
 /*LOGO Y MENU*/
 
-.logoandmenu {
+
+.logoandmenu.desktop {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,6 +40,29 @@ ul {
 li {
     list-style: none;
 }
+
+@media only screen and (min-width: 481px) {
+    .logoandmenu.mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .logoandmenu.desktop {
+        display: none;
+    }
+
+    .logoandmenu.mobile {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+}
+
 
 
 /*PRIMER BANNER*/
@@ -83,6 +107,42 @@ li {
     display: block;
     font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 480px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner_img {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .banner {
+        padding-right: 0px;
+
+    }
+
+    .banner_text {
+        width: 100%;
+        text-align: left;
+       
+
+}
+    .learn {
+        margin: 32px 16px;
+    }
+
+    .learn h1 {
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+
+    .button {
+        background-color: gray;
+    }
+}    
 
 
 /*SEGUNDO BANNER*/
