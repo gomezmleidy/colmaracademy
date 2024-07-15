@@ -249,7 +249,7 @@ li {
 
     .main_aside_card_text {
         width: 100%;
-        margin-left: 48px;
+       padding-left: 48px;
     }
 
 }
