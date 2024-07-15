@@ -219,6 +219,41 @@ li {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 480px) {
+
+    .hurt {
+        display: none;
+    }
+
+    .main_aside {
+        width: 100%;
+        margin-top: 16px;
+        margin-bottom: 32px;
+    } 
+
+    .main_aside_card {
+        flex-direction: column;
+  
+    }
+
+    .main_aside_card_img {
+        width: 100%;
+        
+
+    }
+
+    .main_aside_card img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .main_aside_card_text {
+        width: 100%;
+        margin-left: 48px;
+
+
+}
+
 /*CURSOS*/
 
 .courses {
